@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FCF9F3">
+  <meta name="description" content="OFFROOM은 무심코 흘려보낸 시간을 알아차리고, 나에게 중요한 활동으로 채우며, 작은 실천을 이어가도록 돕는 디지털 웰빙 플랫폼입니다.">
+  <meta property="og:title" content="OFFROOM — Less Scroll, More Life">
+  <meta property="og:description" content="스크롤을 줄이고, 나의 하루를 채우다.">
+  <title>OFFROOM | Less Scroll, More Life</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./landing.css">
+  <script type="module" src="./landing.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로 가기</a>
+
+  <header class="header" id="top">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="OFFROOM 홈">
+        <span class="brand-symbol">O</span>
+        <span class="brand-copy">OFFROOM <small>LESS SCROLL, MORE LIFE</small></span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="primary-nav" aria-label="주요 메뉴">
+        <a href="#why">이런 순간</a>
+        <a href="#how">OFFROOM의 방법</a>
+        <a href="#stories">변화 기록</a>
+        <a href="#difference">기대할 변화</a>
+        <a href="#preview">서비스 미리보기</a>
+      </nav>
+      <a class="nav-cta" href="./app.html">서비스 미리보기 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO: 첫 화면에서 서비스의 정체성과 약속을 전달합니다. -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> A LITTLE SPACE FOR REAL LIFE</p>
+          <h1 id="hero-title">스크롤을 줄이면,<br><em>내 하루에 여백이 생깁니다.</em></h1>
+          <p class="hero-description">무심코 지나간 시간을 알아차리고,<br class="desktop-break"> 내가 원하는 일상으로 다시 채우는 디지털 웰빙 서비스.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#stories">작은 변화 먼저 둘러보기 <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="#how">OFFROOM이 돕는 방법</a>
+          </div>
+          <div class="hero-proofline">
+            <span class="proof-icon" aria-hidden="true">✳</span>
+            <span>억지로 참기보다, 내 선택으로 오래 이어가도록.</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="OFFROOM 서비스 화면을 표현한 예시 목업">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-spark spark-one">✳</div>
+          <div class="art-spark spark-two">✦</div>
+          <div class="floating-note note-top"><span>오늘의 작은 약속</span><strong>화면 밖 20분</strong><i>♡</i></div>
+          <div class="device-card">
+            <div class="device-top"><span class="device-brand"><b>O</b> OFFROOM</span><span class="device-menu">•••</span></div>
+            <div class="device-greeting"><small>MY OFFROOM · TODAY</small><strong>오늘, 나에게<br>얼마나 시간을 돌려줄까요?</strong></div>
+            <div class="device-time-card">
+              <div><small>오늘의 목표</small><strong>20<span>분</span></strong></div>
+              <div class="mini-progress"><span></span></div>
+              <p><b>나에게 맞는 목표</b><span>작게 시작해도 괜찮아요</span></p>
+            </div>
+            <div class="device-activity-row">
+              <div class="activity-emoji">☘</div>
+              <div><small>오늘의 화면 밖 활동</small><strong>동네 한 바퀴 산책</strong></div>
+              <span class="activity-arrow">↗</span>
+            </div>
+            <div class="device-bottom"><span class="active-dot"></span> 나만의 리듬을 만드는 중</div>
+          </div>
+          <div class="floating-note note-bottom"><span>LESS SCROLL</span><strong>MORE LIFE <b>✿</b></strong></div>
+          <span class="art-caption">PRODUCT CONCEPT · PREVIEW</span>
+        </div>
+      </div>
+      <div class="hero-bottom shell"><span>01 / AWARE</span><span>02 / REFILL</span><span>03 / KEEP GOING</span></div>
+    </section>
+
+    <!-- PROBLEM -->
+    <section class="section problem-section" id="why" aria-labelledby="why-title">
+      <div class="shell">
+        <div class="section-intro">
+          <p class="eyebrow">DOES THIS FEEL FAMILIAR?</p>
+          <h2 id="why-title">잠깐만 보려고 했는데,<br><em>어느새 내 시간이 지나가 있나요?</em></h2>
+          <p class="section-lead">줄이고 싶은 마음은 있지만, 막상 바꾸는 일은 쉽지 않으니까요.</p>
+        </div>
+
+        <div class="problem-grid">
+          <article class="problem-card problem-card-peach">
+            <span class="problem-index">01 / TIME</span>
+            <div class="problem-illustration clock-illustration" aria-hidden="true"><span class="clock-face"><i></i><b></b></span><span class="clock-spark">✳</span></div>
+            <h3>잠깐이 길어지는 순간</h3>
+            <p>짧게 보려던 영상이 어느새 길어집니다.</p>
+          </article>
+          <article class="problem-card problem-card-green">
+            <span class="problem-index">02 / FOCUS</span>
+            <div class="problem-illustration focus-illustration" aria-hidden="true"><span class="focus-ring"></span><span class="focus-center">···</span></div>
+            <h3>자꾸 끊기는 집중</h3>
+            <p>다시 시작하려 해도 흐름을 찾기 어려워요.</p>
+          </article>
+          <article class="problem-card problem-card-yellow">
+            <span class="problem-index">03 / OFFLINE</span>
+            <div class="problem-illustration offline-illustration" aria-hidden="true"><span>☁</span><b>?</b><i>♡</i></div>
+            <h3>화면을 끈 다음의 막막함</h3>
+            <p>휴대폰 대신 무엇을 할지 떠오르지 않아요.</p>
+          </article>
+        </div>
+        <p class="problem-note"><span>✳</span> 필요한 건 더 강한 통제가 아니라, 바꿔볼 수 있는 작은 방법입니다.</p>
+      </div>
+    </section>
+
+    <!-- VALUE / WHAT WE DO -->
+    <section class="section how-section" id="how" aria-labelledby="how-title">
+      <div class="shell">
+        <div class="section-heading-row">
+          <div class="section-intro">
+            <p class="eyebrow">WHAT OFFROOM DOES</p>
+            <h2 id="how-title">참는 데서 끝나지 않도록,<br><em>다음에 할 일까지 함께 찾습니다.</em></h2>
+          </div>
+          <p class="section-side-copy">사용을 막기보다<br>내가 원하는 일상으로 연결해요.</p>
+        </div>
+
+        <div class="how-grid">
+          <article class="how-card">
+            <div class="how-card-top"><span>STEP 01</span><span class="how-icon icon-eye" aria-hidden="true">◉</span></div>
+            <h3>나의 습관을 알아차리고</h3>
+            <p>무심코 쓰는 시간과 바꾸고 싶은 순간을 살펴봐요.</p>
+            <div class="how-visual visual-tracker" aria-hidden="true"><div class="tracker-label">MY TIME</div><div class="tracker-bar"><i></i></div><div class="tracker-bottom"><b>30 min</b><span>나의 작은 목표</span></div></div>
+          </article>
+          <article class="how-card">
+            <div class="how-card-top"><span>STEP 02</span><span class="how-icon icon-leaf" aria-hidden="true">✿</span></div>
+            <h3>화면 밖의 즐거움으로 채우고</h3>
+            <p>독서, 산책, 음악처럼 지금 할 수 있는 활동을 골라요.</p>
+            <div class="how-visual visual-activities" aria-hidden="true"><span>📖</span><span>☕</span><span>🌿</span><span>🎧</span></div>
+          </article>
+          <article class="how-card">
+            <div class="how-card-top"><span>STEP 03</span><span class="how-icon icon-heart" aria-hidden="true">♡</span></div>
+            <h3>작은 실천을 이어가요</h3>
+            <p>부담 없는 목표를 기록하고 서로의 시도를 응원해요.</p>
+            <div class="how-visual visual-community" aria-hidden="true"><div class="avatar avatar-one">느</div><div class="avatar avatar-two">천</div><div class="avatar avatar-three">오</div><div class="community-bubble">오늘도 함께!</div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY GALLERY: examples are clearly marked and are not real testimonials. -->
+    <section class="section stories-section" id="stories" aria-labelledby="stories-title">
+      <div class="shell">
+        <div class="section-heading-row">
+          <div class="section-intro">
+            <p class="eyebrow">LITTLE MOMENTS, REAL LIFE</p>
+            <h2 id="stories-title">다른 사람의 앨범을 보듯,<br><em>작은 변화부터 둘러보세요.</em></h2>
+          </div>
+          <p class="section-side-copy">거창한 성공보다<br>오늘의 작은 장면을 먼저 담아요.</p>
+        </div>
+        <div class="story-grid">
+          <article class="story-card story-book">
+            <div class="story-art" aria-hidden="true"><span class="story-sun"></span><span class="story-book-shape"></span><span class="story-leaf">✳</span></div>
+            <div class="story-card-copy"><span class="story-label">기록 구성 예시 · 01</span><h3>잠깐의 스크롤 대신<br>책 한 장을 넘긴 저녁</h3><p>화면을 내려놓고, 읽고 싶던 페이지를 펼쳐보기.</p></div>
+          </article>
+          <article class="story-card story-walk">
+            <div class="story-art" aria-hidden="true"><span class="story-moon"></span><span class="story-path"></span><span class="story-star">✦</span></div>
+            <div class="story-card-copy"><span class="story-label">기록 구성 예시 · 02</span><h3>퇴근 후 영상 대신<br>동네 한 바퀴 산책</h3><p>멀리 가지 않아도 바깥 공기를 만나는 시간.</p></div>
+          </article>
+          <article class="story-card story-note">
+            <div class="story-art" aria-hidden="true"><span class="story-paper"></span><span class="story-pencil"></span><span class="story-heart">♡</span></div>
+            <div class="story-card-copy"><span class="story-label">기록 구성 예시 · 03</span><h3>휴대폰을 내려놓고<br>내일을 가볍게 준비하기</h3><p>오늘의 생각을 한 줄 적으며 하루를 마무리하기.</p></div>
+          </article>
+        </div>
+        <p class="story-disclaimer">위 카드는 실제 이용자 후기가 아닌 화면 구성 예시입니다. 실제 이야기는 팀 테스트 후 당사자의 동의를 받아 소개합니다.</p>
+      </div>
+    </section>
+
+    <!-- DIFFERENCE / EXPECTED BENEFITS -->
+    <section class="section difference-section" id="difference" aria-labelledby="difference-title">
+      <div class="shell difference-layout">
+        <div class="difference-copy">
+          <p class="eyebrow">WHAT CAN CHANGE?</p>
+          <h2 id="difference-title">시간을 줄인 다음,<br><em>내 일상에 생길 변화를 생각해요.</em></h2>
+          <p>OFFROOM은 사용을 무조건 막거나 특별한 결과를 약속하지 않아요. 스스로 선택하고 실천을 이어가도록 돕습니다.</p>
+          <a class="inline-link" href="./app.html">서비스 화면 미리보기 <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="benefit-list">
+          <article class="benefit-item">
+            <span class="benefit-number">01</span>
+            <div><h3>내 시간이 어디로 가는지 살펴봐요</h3><p>무심코 지나간 사용 습관을 돌아보고 바꾸고 싶은 순간을 알아차립니다.</p></div>
+            <span class="benefit-symbol">◷</span>
+          </article>
+          <article class="benefit-item">
+            <span class="benefit-number">02</span>
+            <div><h3>화면 밖의 선택지가 늘어나요</h3><p>독서, 산책, 휴식 등 나에게 맞는 활동을 직접 골라볼 수 있습니다.</p></div>
+            <span class="benefit-symbol">✿</span>
+          </article>
+          <article class="benefit-item">
+            <span class="benefit-number">03</span>
+            <div><h3>다시 시작할 계기를 만들어요</h3><p>작은 목표와 서로의 응원으로 완벽하지 않은 날에도 이어갈 수 있습니다.</p></div>
+            <span class="benefit-symbol">♡</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT MOCKUP -->
+    <section class="section preview-section" id="preview" aria-labelledby="preview-title">
+      <div class="shell">
+        <div class="section-heading-row preview-heading">
+          <div class="section-intro">
+            <p class="eyebrow">A LOOK INSIDE OFFROOM</p>
+            <h2 id="preview-title">복잡한 기능보다,<br><em>실천이 보이는 경험.</em></h2>
+          </div>
+          <div class="mockup-disclaimer">제품 화면 목업<br><small>설명을 위한 예시 화면이며 실제 이용자 데이터가 아닙니다.</small></div>
+        </div>
+
+        <div class="preview-frame">
+          <div class="preview-window">
+            <div class="preview-window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>OFFROOM / MY SPACE</span><span>PREVIEW</span></div>
+            <div class="preview-app-layout">
+              <aside class="preview-sidebar">
+                <div class="preview-logo"><b>O</b> OFFROOM</div>
+                <span class="sidebar-active">⌂　오늘</span><span>◷　내 기록</span><span>✿　챌린지</span><span>♡　함께하기</span>
+                <div class="sidebar-profile"><div class="profile-dot">나</div><span>나의 작은 방</span></div>
+              </aside>
+              <div class="preview-main">
+                <div class="preview-welcome"><div><small>MY OFFROOM · EXAMPLE</small><h3>오늘도 나에게 시간을 돌려주세요.</h3><p>작은 실천이 쌓이면 나만의 리듬이 됩니다.</p></div><span class="preview-weather">☀</span></div>
+                <div class="preview-metrics">
+                  <div class="metric-card"><small>오늘의 목표 · 예시</small><strong>20<em>분</em></strong><span class="metric-track"><i></i></span><b>나의 작은 약속</b></div>
+                  <div class="metric-card metric-green"><small>이번 주 기록</small><strong>3<em>/ 7일</em></strong><span class="metric-track"><i></i></span><b>꾸준히 이어가는 중</b></div>
+                  <div class="metric-card metric-peach"><small>오늘의 화면 밖 활동</small><strong class="metric-word">독서 20분</strong><span class="metric-sticker">📖</span><b>내가 직접 기록한 활동</b></div>
+                </div>
+                <div class="preview-lower">
+                  <div class="preview-chart-card"><div class="chart-card-title"><b>나의 시간 기록</b><small>최근 7일 · 예시</small></div><div class="bar-chart"><i style="height:42%"></i><i style="height:63%"></i><i style="height:48%"></i><i style="height:74%"></i><i style="height:38%"></i><i style="height:55%"></i><i style="height:29%"></i></div><div class="chart-days"><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span><span>토</span><span>일</span></div></div>
+                  <div class="preview-note-card"><small>MY NOTE</small><b>오늘의 한 줄</b><p>휴대폰 대신 책을 읽으니 저녁이 조금 길어진 기분.</p><span>작은 기록도 나의 변화가 돼요. ♡</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="preview-caption"><span>PRODUCT CONCEPT / 01</span><span>화면 구성은 서비스 개발 방향을 설명하기 위한 목업입니다.</span></div>
+        <div class="preview-cta-row"><p>어떤 흐름으로 이용하는지 더 살펴보고 싶으신가요?</p><a class="button button-primary" href="./app.html">서비스 프로토타입 둘러보기 ↗</a></div>
+      </div>
+    </section>
+
+    <!-- WHO IT IS FOR -->
+    <section class="section audience-section" aria-labelledby="audience-title">
+      <div class="shell audience-inner">
+        <div>
+          <p class="eyebrow">A GOOD PLACE TO BEGIN</p>
+          <h2 id="audience-title">이런 마음이 들 때,<br><em>OFFROOM에서 시작해 보세요.</em></h2>
+        </div>
+        <div class="audience-tags"><span>집중할 시간을 만들고 싶을 때</span><span>퇴근 후 내 시간을 되찾고 싶을 때</span><span>휴대폰 대신 새 취미를 찾고 싶을 때</span><span>혼자서는 실천이 오래가지 않을 때</span></div>
+      </div>
+    </section>
+
+    <!-- SOCIAL PROOF PLACEHOLDER: no fabricated testimonials -->
+    <section class="feedback-section" aria-labelledby="feedback-title">
+      <div class="shell feedback-inner">
+        <div class="feedback-mark">“</div>
+        <div><p class="eyebrow">REAL STORIES, WITH PERMISSION</p><h2 id="feedback-title">변화는 실제로 경험한 사람의<br><em>목소리로 전할게요.</em></h2><p>그럴듯한 숫자나 만들어 낸 후기가 아닌, 팀 테스트를 거친 실제 경험을 당사자의 동의와 함께 소개하겠습니다.</p></div>
+        <div class="feedback-status"><span class="status-dot"></span> 후기 수집 준비 중</div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq-section" aria-labelledby="faq-title">
+      <div class="shell faq-layout">
+        <div class="section-intro"><p class="eyebrow">GOOD TO KNOW</p><h2 id="faq-title">궁금한 점이<br><em>있으신가요?</em></h2><p>OFFROOM이 어떤 서비스인지 간단히 소개합니다.</p></div>
+        <div class="faq-list">
+          <details><summary>OFFROOM은 어떤 서비스인가요?<span>＋</span></summary><p>스마트폰 사용 습관을 돌아보고, 줄이고 싶은 시간을 현실 활동으로 채우며, 작은 실천을 이어가도록 돕는 디지털 웰빙 플랫폼입니다.</p></details>
+          <details><summary>휴대폰 사용시간을 자동으로 측정하나요?<span>＋</span></summary><p>일반 웹페이지는 다른 앱의 사용시간을 자동으로 읽을 수 없습니다. 웹 프로토타입에서는 직접 기록하는 방식이며, 자동 측정은 기기와 운영체제의 권한 및 별도 앱 개발이 필요한 후속 기능입니다.</p></details>
+          <details><summary>도파민을 줄이거나 뇌를 회복시키는 서비스인가요?<span>＋</span></summary><p>아닙니다. OFFROOM은 의학적 치료나 도파민 제거를 제공하지 않습니다. 사용 습관을 살펴보고 시간 관리와 일상 속 실천을 돕는 서비스입니다.</p></details>
+          <details><summary>챌린지를 완벽하게 성공해야 하나요?<span>＋</span></summary><p>완벽한 성공이 목적은 아닙니다. 가능한 목표부터 시작하고, 하루 기록을 놓치더라도 다시 이어갈 수 있도록 설계하는 것이 OFFROOM의 방향입니다.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta" aria-labelledby="final-title">
+      <div class="shell final-cta-inner">
+        <div class="cta-flower flower-left">✿</div><div class="cta-flower flower-right">✳</div>
+        <p class="eyebrow">LESS SCROLL, MORE LIFE</p>
+        <h2 id="final-title">오늘 조금 덜 보고,<br><em>나를 조금 더 만나기.</em></h2>
+        <p>완벽한 하루보다, 나에게 맞는 작은 변화부터 시작해 보세요.</p>
+        <a class="button button-light" href="./app.html">OFFROOM 미리보기 <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-main"><a class="brand footer-brand" href="#top"><span class="brand-symbol">O</span><span class="brand-copy">OFFROOM <small>LESS SCROLL, MORE LIFE</small></span></a><p>스크롤은 줄이고, 나의 일상은 채우고.</p><span>© 2026 OFFROOM · CONCEPT LANDING PAGE</span></div>
+    <div class="shell footer-disclaimer">OFFROOM은 사용 습관과 일상 속 실천을 돕는 디지털 웰빙 서비스 콘셉트입니다. 소개 페이지의 제품 화면은 목업이며, 예시 수치와 그래프는 실제 사용자 데이터가 아닙니다.</div>
+  </footer>
+</body>
+</html>
